@@ -1,3 +1,4 @@
+/* тело страницы класс page*/
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -8,7 +9,7 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-
+/* шапка страницы блок header*/
 .header {
   display: flex;
   height: 100vh;
@@ -22,7 +23,7 @@
 
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+/* шапка страницы картинка квадрат */
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -32,15 +33,7 @@
   position: absolute;
 
 }
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-
+/* шапка страницы логотип (яндекс практикум) */
 .logo {
   top: 30px;
   left: 64px;
@@ -49,7 +42,7 @@
   z-index: 1;
   position: absolute;
 }
-
+/* шапка страницы заголовок первого уровня (Научиться учиться)*/
 .header__title {
   left: 64px;
   font-size: 102px;
@@ -64,8 +57,10 @@
   flex-direction: row;
   position: absolute;
   z-index: 2;
+  margin: 0;
+  padding: 0;
 }
-
+/* шапка страницы подзаголовок */
 .header__subtitle {
   line-height: 25px;
   line-height: 18px;
@@ -76,8 +71,9 @@
   bottom: 30px;
   z-index: 3;
   margin: 0;
+  padding: 0;
 }
-
+/* шапка страницы картинка */
 .header__main-illustration {
   background-image: url(../images/header-image.png);
   bottom: 0;
@@ -88,13 +84,13 @@
   position: absolute;
   background-size: cover;
 }
-
+/* шапка страницы текстовая ссылка (узнать ->)*/
 .header__link {
   text-decoration: none;
   color: #2f80ed;
   margin-left: 5px;
 }
-
+/* Основное содержимое страницы, блок description */
 .description {
   display: flex;
   flex-wrap: nowrap;
@@ -103,8 +99,9 @@
   align-items: center;
   justify-content: center;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
-
+/* блок two-columns c блоками*/
 .description__two-columns {
   display: flex;
   align-items: flex-start;
@@ -116,7 +113,7 @@
   width: 80%;
   margin-bottom: 100px;
 }
-
+/* блок two-columns с элементом brief (текстовая ссылка) "Главные проблемы в обучении" */
 .description__two-columns__brief {
   text-decoration: none;
   color: #2f80ed;
@@ -126,7 +123,7 @@
   display: flex;
   width: 175px;
 }
-
+/* Блок two-columns, элемент paragraph + текс*/
 .description__two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
@@ -134,7 +131,7 @@
   margin: 0;
   margin-bottom: 30px;
 }
-
+/* блок c текстом main-text*/
 .description__two-columns__main-text {
   width: 80%;
   display: flex;
@@ -144,18 +141,19 @@
   flex-wrap: wrap;
   flex-direction: row;
 }
-
+/* тег span слово (Вывод)*/
 .two-columns__span-accent {
   font-weight: bolder;
 }
-
+/* Секция, блок digits*/
 .digits {
   display: flex;
   align-items: center;
   flex-direction: column;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
-
+/* Секция, блок section-title заголовок (Цифры и факты)*/
 .section-title {
   border-top: 100px;
   margin: auto;
@@ -169,8 +167,10 @@
   font-size: 60px;
   line-height: 1.15;
   font-style: 600;
+  margin: 0;
+  padding: 0;
 }
-
+/* Секция, блок section-subtitle подзаголовок (Про учёбу и мозг)*/
 .section-subtitle {
   width: 60%;
   margin-bottom: auto;
@@ -179,7 +179,7 @@
   font-size: 24px;
   font-style: normal;
 }
-
+/* блок table с блоками*/
 .table {
   width: 1100px;
   margin-bottom: 100px;
@@ -190,33 +190,33 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
+/*  блок tablе элемент cell 8 штук с заголовками и текстом в них */
 .table__cell {
   width: 250px;
   margin-top: 60px;
 }
-
+/* заголовок (86 миллиардов и.т.д)*/ 
 .table__heading {
   margin-bottom: 20px;
   font-size: 24px;
   line-height: 1.15;
   font-weight: 600;
 }
-
+/* текст (Число нейронов в мозге человека и.т.д) */
 .table__text {
   margin-bottom: 20px;
   line-height: 1.15;
   font-size: 18px;
   font-style: normal;
 }
-
+/* дополнительный элемент text2 что бы сделать отступ в 20рх (Всемирный Банк, 2017)*/
 .table__text2 {
   line-height: 1.15;
   font-size: 18px;
   font-style: normal;
   margin: 0;
 }
-
+/* Секция, блок feynman*/
 .feynman {
   min-height: 890px;
   margin-top: 100px;
@@ -232,7 +232,7 @@
   justify-content: flex-start;
   position: relative;
 }
-
+/* блок feynman-title заголовок (Метод Фейнмана)*/
 .feynman-title {
   width: 648px;
   font-size: 120px;
@@ -242,14 +242,16 @@
   margin-top: 100px;
   margin-bottom: 70px;
 }
-
+/* блок feynman-subtitle подзаголовок (Выучить и не забыть.)*/
 .feynman-subtitle {
   font-size: 36px;
   line-height: 51px;
   font-weight: normal;
   margin-top: 0;
+  margin: 0;
+  padding: 0;
 }
-
+/* блок feynman с элементом link + текстовая ссылка (Подробнее)*/
 .feynman__link {
   position: absolute;
   text-decoration: none;
@@ -261,7 +263,7 @@
   top: 50%;
   right: 48px;
 }
-
+/* Секция, блок kaufman*/
 .kaufman {
   background-color: #1f1f1f;
   position: relative;
@@ -274,7 +276,7 @@
   justify-content: center;
   text-align: center;
 }
-
+/* Блок kaufman, элемент triangle картинка (треугольник)*/
 .kaufman__triangle {
   background-image: url(../images/kaufman-triangle.svg);
   background-repeat: no-repeat;
@@ -285,7 +287,7 @@
   right: -210px;
 
 }
-
+/* блок section-title с модификатором и значением заголовок: (Принципы обучения)*/
 .section-title_theme_dark {
   width: 60%;
   margin-top: 90px;
@@ -295,8 +297,8 @@
   font-weight: 600;
   color: white;
 }
-
-.section-subtitle_them_dark {
+/* блок section-title с модификатором и значением подзаголовок: (от Джоша Кауфмана)*/
+.section-subtitle_theme_dark {
   width: 60%;
   margin-top: 20px;
   margin-bottom: auto;
@@ -305,8 +307,8 @@
   font-weight: normal;
   color: white;
 }
-
-.table_them_dark {
+/* блок table с модификатором и значением с блоками*/
+.table_theme_dark {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 90px;
@@ -316,8 +318,8 @@
   justify-content: space-between;
   flex-direction: row;
 }
-
-.table__cell_them_dark {
+/* Блок table, элемент cell, модификатор theme в значении dark их 10 штук с заголовками и текстами*/
+.table__cell_theme_dark {
   width: 200px;
   margin-top: 80px;
   display: flex;
@@ -325,17 +327,19 @@
   flex-direction: row;
   align-content: flex-start;
   z-index: 1;
+  color: white;
+  margin-right: 0;
 }
-
-.table__heading_them_dark {
+/* заголовок (1,2,3 и.т.д)*/
+.table__heading_theme_dark {
   font-size: 24px;
   line-height: 1.15;
   font-weight: 600;
   margin-top: 0;
   color: white;
 }
-
-.table__text_them_dark {
+/* текст (Выберите привлекательный проект.) и.т.д */
+.table__text_theme_dark {
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
@@ -345,14 +349,14 @@
   z-index: 1;
   margin-bottom: 0;
 }
-
+/*  Подвал страницы, блок footer */
 .footer {
   background-color: #1f1f1f;
   min-height: 350px;
   overflow: hidden;
   margin-bottom: 40px;
 }
-
+/* Блок footer, элемент columns и блоки в нем*/
 .footer__columns {
   flex-basis: 711px;
   width: 90%;
@@ -364,7 +368,8 @@
   margin-top: 60px;
   min-height: 350px;
 }
-
+/* Блок footer, элемент column, модификатор content со значением
+copyright логотип + текс*/
 .footer__columns_content_copyright {
   position: relative;
   display: flex;
@@ -373,7 +378,7 @@
   justify-content: space-between;
   flex-basis: 50%;
 }
-
+/* Блок footer, элемент column, модификатор content со значением info с заголовком и текстовыми ссылками*/
 .footer__columns_content_info {
   font-size: 18px;
   line-height: 30px;
@@ -384,27 +389,27 @@
   color: white;
   margin-bottom: 16px;
 }
-
+/* Блок footer, элемент column, модификатор content со значением social с заголовком, текстовыми ссылками и логотипами */
 .footer__columns_content_social {
   font-size: 18px;
   line-height: 30px;
   font-weight: 600;
   color: white;
 }
-
+/* логотип (яндекс практикум)*/
 .logo_place_footer {
   width: 228px;
   min-height: 32px;
   filter: invert(1);
 }
-
+/* текс. символ (с) взял из википедии (Артём Попов)*/
 .footer__author {
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
   color: white;  
 }
-
+/* зоголовок соцсети, (о практикуме)*/
 .footer__column_heading {
   font-size: 18px;
   line-height: 30px;
@@ -412,7 +417,7 @@
   margin-top: 0;
   margin-bottom: 20px;
 }
-
+/* текстовые ссылки (главное, концепция, наставники)*/
 .footer__column_links {
   font-size: 18px;
   line-height: 30px;
@@ -424,14 +429,14 @@
   text-decoration: none;
   color: white;
 }
-
+/* логотипы (вконтакте, ютюб, тикток)*/ 
 .footer__social_icon {
   width: 16px;
   height: 16px;
   margin-right: 10px;
   margin-top: 6px;
 }
-
+/* текстовые ссылки (вконтакте, ютуб, тикток)*/
 .footer__column_link {
   font-size: 18px;
   line-height: 30px;
