@@ -132,9 +132,11 @@
   width: 175px;
   margin: 0;
 }
+
 .two-columns__brief:last-child {
   margin-bottom: 0;
 }
+
 /* Блок two-columns, элемент paragraph + текс*/
 .two-columns__paragraph {
   line-height: 34px;
@@ -230,11 +232,10 @@
   line-height: 1.15;
   font-size: 18px;
   font-style: normal;
-  margin: 0;
   padding: 0;
-  margin-bottom: 20px;
-
+  margin: 0;
 }
+
 /* Секция, блок feynman*/
 .feynman {
   min-height: 890px;
