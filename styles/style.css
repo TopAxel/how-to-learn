@@ -79,7 +79,6 @@
 
 /* шапка страницы картинка */
 .header__main-illustration {
-  background-image: url(../images/header-image.png);
   bottom: 0;
   right: 0;
   height: 608px;
@@ -104,8 +103,7 @@
   align-content: center;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
+ padding-top: 100px;
 }
 
 /* блок two-columns c блоками*/
@@ -133,7 +131,7 @@
   margin: 0;
 }
 
-.two-columns__brief:last-child {
+.two-columns__paragraph:last-child {
   margin-bottom: 0;
 }
 
@@ -167,8 +165,8 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 /* Секция, блок section-title заголовок (Цифры и факты)*/
@@ -201,7 +199,6 @@
 /* блок table с блоками*/
 .table {
   width: 1100px;
-  margin-bottom: 100px;
   display: flex;
   align-items: stretch;
   flex-direction: row;
@@ -223,7 +220,6 @@
   font-weight: 600;
   margin: 0;
   padding: 0;
-  margin-bottom: 20px;
 }
 
 /* текст (Число нейронов в мозге человека и.т.д) */
@@ -239,7 +235,6 @@
 /* Секция, блок feynman*/
 .feynman {
   min-height: 890px;
-  margin-top: 100px;
   background-image: url(../images/feynman.png);
   background-position: bottom left;
   background-repeat: no-repeat;
@@ -318,7 +313,6 @@
 /* блок section-title с модификатором и значением заголовок: (Принципы обучения)*/
 .section-title_theme_dark {
   width: 60%;
-  margin-top: 90px;
   margin-bottom: 20px;
   font-size: 60px;
   line-height: 1.15;
@@ -336,7 +330,6 @@
   color: white;
   margin: 0;
   padding: 0;
-  margin-bottom: 80px;
 
 }
 
@@ -349,7 +342,6 @@
   flex-wrap: wrap;
   justify-content: space-between;
   flex-direction: row;
-  margin: 0;
 }
 
 /* Блок table, элемент cell, модификатор theme в значении dark их 10 штук с заголовками и текстами*/
@@ -361,7 +353,7 @@
   align-content: flex-start;
   z-index: 1;
   color: white;
-  margin-bottom: 80px;
+ margin-top: 80px;
 
 }
 
@@ -374,6 +366,8 @@
   margin: 0;
   padding: 0;
   margin-bottom: 20px;
+  display: flex;
+
 }
 
 /* текст (Выберите привлекательный проект.) и.т.д */
@@ -393,19 +387,17 @@
   background-color: #1f1f1f;
   min-height: 350px;
   box-sizing: border-box;
-  padding-top: 40px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
 }
 
 /* Блок footer, элемент columns и блоки в нем*/
 .footer__columns {
-  flex-basis: 711px;
   width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
   display: flex;
   justify-content: space-between;
-  margin-top: 60px;
 }
 
 /* Блок footer, элемент column, модификатор content со значением
@@ -416,7 +408,7 @@ copyright логотип + текс*/
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
-  flex-basis: 50%;
+  flex-basis: 711px;
 }
 
 /* Блок footer, элемент column, модификатор content со значением info с заголовком и текстовыми ссылками*/
@@ -428,7 +420,6 @@ copyright логотип + текс*/
   display: flex;
   flex-direction: column;
   color: white;
-  margin-bottom: 16px;
 }
 
 /* Блок footer, элемент column, модификатор content со значением social с заголовком, текстовыми ссылками и логотипами */
@@ -455,7 +446,7 @@ copyright логотип + текс*/
 }
 
 /* зоголовок соцсети, (о практикуме)*/
-.footer__column__heading {
+.footer__column-heading {
   font-size: 18px;
   line-height: 30px;
   font-weight: 600;
