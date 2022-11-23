@@ -114,9 +114,7 @@
   flex-wrap: nowrap;
   flex-direction: row;
   align-content: center;
-  margin-top: 100px;
   width: 80%;
-  margin-bottom: 100px;
 }
 
 /* блок two-columns с элементом brief (текстовая ссылка) "Главные проблемы в обучении" */
@@ -205,6 +203,9 @@
   align-content: space-between;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 /*  блок tablе элемент cell 8 штук с заголовками и текстом в них */
@@ -307,7 +308,7 @@
   position: absolute;
   top: 0;
   right: -210px;
-
+  background-size: cover
 }
 
 /* блок section-title с модификатором и значением заголовок: (Принципы обучения)*/
@@ -472,7 +473,7 @@ copyright логотип + текс*/
   width: 16px;
   height: 16px;
   margin-right: 10px;
-  margin-top: 6px;
+  align-items: center;
 }
 
 /* текстовые ссылки (вконтакте, ютуб, тикток)*/
@@ -483,5 +484,6 @@ copyright логотип + текс*/
   position: relative;
   text-decoration: none;
   display: flex;
+  align-items: center;
   color: white;
 }
