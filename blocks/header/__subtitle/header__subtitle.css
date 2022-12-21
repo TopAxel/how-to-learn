@@ -1,0 +1,13 @@
+/* шапка страницы подзаголовок */
+.header__subtitle {
+    line-height: 25px;
+    font-size: 18px;
+    font-style: normal;
+    position: absolute;
+    width: 388px;
+    left: 64px;
+    bottom: 30px;
+    z-index: 3;
+    margin: 0;
+    padding: 0;
+  }

@@ -1,0 +1,9 @@
+/* блок feynman-subtitle подзаголовок (Выучить и не забыть.)*/
+.feynman-subtitle {
+    font-size: 36px;
+    line-height: 51px;
+    font-weight: normal;
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+  }

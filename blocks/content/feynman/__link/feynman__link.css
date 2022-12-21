@@ -1,0 +1,18 @@
+/* блок feynman с элементом link + текстовая ссылка (Подробнее)*/
+.feynman__link {
+    position: absolute;
+    text-decoration: none;
+    color: #2f80ed;
+    font-size: 36px;
+    line-height: 51px;
+    font-weight: normal;
+    z-index: auto;
+    top: 50%;
+    right: 48px;
+    opacity: 1;
+  }
+
+  .feynman__link:hover {
+    opacity: 0.6;
+    transition: all .1s ease-in;
+  }

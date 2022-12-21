@@ -1,0 +1,11 @@
+/* Блок two-columns, элемент paragraph + текс*/
+.two-columns__paragraph {
+    line-height: 34px;
+    font-size: 24px;
+    font-style: normal;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  .two-columns__paragraph:last-child {
+    margin-bottom: 0;
+  }

@@ -1,0 +1,11 @@
+/* текст (Выберите привлекательный проект.) и.т.д */
+.table__text_theme_dark {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: white;
+    text-align: left;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+  }

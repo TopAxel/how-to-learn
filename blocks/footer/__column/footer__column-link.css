@@ -1,0 +1,17 @@
+/* текстовые ссылки (вконтакте, ютуб, тикток)*/
+.footer__column-link {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: normal;
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    opacity: 1;
+  }
+
+  .footer__column-link:hover {
+    opacity: 0.6;
+    transition: all .1s ease-in;
+  }

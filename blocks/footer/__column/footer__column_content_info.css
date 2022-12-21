@@ -1,0 +1,10 @@
+/* Блок footer, элемент column, модификатор content со значением info с заголовком и текстовыми ссылками*/
+.footer__column_content_info {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: normal;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }

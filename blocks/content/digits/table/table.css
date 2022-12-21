@@ -1,0 +1,13 @@
+/* блок table с блоками*/
+.table {
+    width: 1100px;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }

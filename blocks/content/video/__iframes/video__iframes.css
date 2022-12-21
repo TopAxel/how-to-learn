@@ -1,0 +1,6 @@
+/*Блок video, элемент iframes*/
+.video__iframes {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }

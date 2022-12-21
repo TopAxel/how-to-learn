@@ -1,0 +1,8 @@
+/*секция блок video*/
+.video {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+  }

@@ -1,0 +1,5 @@
+/*  блок tablе элемент cell 8 штук с заголовками и текстом в них */
+.table__cell {
+    width: 250px;
+    margin-top: 60px;
+  }

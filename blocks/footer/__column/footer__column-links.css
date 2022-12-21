@@ -1,0 +1,12 @@
+/* текстовые ссылки (главное, концепция, наставники)*/
+.footer__column-links {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: normal;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: white;
+  }

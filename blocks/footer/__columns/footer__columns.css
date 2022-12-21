@@ -1,0 +1,6 @@
+/* Блок footer, элемент columns и блоки в нем*/
+.footer__columns {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+  }

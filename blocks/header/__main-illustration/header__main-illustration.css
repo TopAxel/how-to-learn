@@ -1,0 +1,10 @@
+/* шапка страницы картинка*/
+.header__main-illustration {
+  bottom: 0;
+  right: 0;
+  height: 608px;
+  width: 756px;
+  z-index: 1;
+  position: absolute;
+  background-size: cover;
+}

@@ -1,0 +1,12 @@
+/* Блок table, элемент cell, модификатор theme в значении dark их 10 штук с заголовками и текстами*/
+.table__cell_theme_dark {
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    z-index: 1;
+    color: white;
+    margin-top: 80px;
+  
+  }

@@ -1,0 +1,9 @@
+/* шапка страницы логотип (яндекс практикум) */
+.logo_place_header {
+    top: 30px;
+    left: 64px;
+    width: 228px;
+    min-height: 32px;
+    z-index: 1;
+    position: absolute;
+  }

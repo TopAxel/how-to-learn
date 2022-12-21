@@ -1,0 +1,11 @@
+
+/* блок table с модификатором и значением с блоками*/
+.table_theme_dark {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1160px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+  }

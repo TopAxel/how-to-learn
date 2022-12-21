@@ -1,0 +1,11 @@
+/* блок two-columns с элементом brief "История Барбары Оакли." */
+.two-columns__brief {
+    text-decoration: none;
+    color: #2f80ed;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    display: flex;
+    width: 175px;
+    margin: 0;
+  }

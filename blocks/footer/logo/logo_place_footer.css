@@ -1,0 +1,6 @@
+/* логотип (яндекс практикум)*/
+.logo_place_footer {
+    width: 228px;
+    min-height: 32px;
+    filter: invert(1);
+  }
