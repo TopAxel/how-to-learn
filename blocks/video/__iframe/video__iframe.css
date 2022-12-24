@@ -1,0 +1,12 @@
+/*Блок video, элемент iframe*/
+.video__iframe {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-left: 20px;
+    width: 515px;
+    height: 316px;
+    border: none;
+  }
+
+  

@@ -2,7 +2,6 @@
 <html lang="ru">
 
 <head>
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,17 +12,17 @@
   <!-- шапка страницы блок header -->
   <header class="header">
     <!-- Логотип "яндекс практикум" -->
-    <div class="logo logo_place_header"><img src="./images/logo_place_header.svg" alt="логотип Яндекс практикум"></div>
+    <div class="logo logo_place_header"><img src="./images/logo/logo_place_header.svg" alt="логотип Яндекс практикум"></div>
     <!-- заголовок первого уровня -->
     <h1 class="header__title">Научиться учиться</h1>
     <!-- подзаголовок + текстовая ссылка -->
     <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
       жизни?<a class="header__link" href="#">Узнать →</a></p>
     <!-- картинка  -->
-    <img class="header__main-illustration" src="./images/header-image.png"
+    <img class="header__main-illustration" src="./images/header/header-image.png"
       alt="Картина, опять двойка! Художник Фёдор Решетников">
     <!-- Синий квадрат -->
-    <div class="header__square-pic">
+    <div class="header__square-pic rotation">
     </div>
   </header>
   <!-- Основное содержимое страницы, блок content -->
@@ -66,32 +65,32 @@
         <!--блок cards элемент item 5 штук-->
         <li class="cards__item">
           <!--картинка-->
-          <img class="cards__image" src="./images/cards-attention.png" alt="картинка">
+          <img class="cards__image" src="./images/techniques/cards-attention.png" alt="картинка">
           <!--заголовок-->
-          <h2 class="cards__title">Два вида внимания</h2>
+          <h3 class="cards__title">Два вида внимания</h3>
           <!--подзаголовок-->
           <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное
             мышление.</p>
         </li>
         <li class="cards__item">
-          <img class="cards__image" src="./images/cards-recall.png" alt="картинка">
-          <h2 class="cards__title">Recall</h2>
+          <img class="cards__image" src="./images/techniques/cards-recall.png" alt="картинка">
+          <h3 class="cards__title">Recall</h3>
           <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
         </li>
         <li class="cards__item">
-          <img class="cards__image" src="./images/cards-interliving.png" alt="картинка">
-          <h2 class="cards__title">Интерливинг</h2>
+          <img class="cards__image" src="./images/techniques/cards-interliving.png" alt="картинка">
+          <h3 class="cards__title">Интерливинг</h3>
           <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
         </li>
         <li class="cards__item">
-          <img class="cards__image" src="./images/cards-question.png" alt="картинка">
-          <h2 class="cards__title">Вопросы</h2>
+          <img class="cards__image" src="./images/techniques/cards-question.png" alt="картинка">
+          <h3 class="cards__title">Вопросы</h3>
           <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно
             волнует.</p>
         </li>
         <li class="cards__item">
-          <img class="cards__image" src="./images/cards-competence.png" alt="картинка">
-          <h2 class="cards__title">Иллюзия компетентности</h2>
+          <img class="cards__image" src="./images/techniques/cards-competence.png" alt="картинка">
+          <h3 class="cards__title">Иллюзия компетентности</h3>
           <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы
             владеете новой темой.</p>
         </li>
@@ -105,11 +104,10 @@
       <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
       <div class="video__iframes">
           <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player"
-          style="border:none;"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
             <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"
-              title="YouTube video player" style="border:none;"
+              title="YouTube video player" 
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>
       </div>
@@ -208,7 +206,7 @@
         <!--Блок khan, элемент book-container-->
         <div class="khan__book-container">
           <!--Блок khan, элемент book-pic картинка-->
-          <img class="khan__book-pic" src="./images/khan-book.jpg"
+          <img class="khan__book-pic" src="./images/khan/khan-book.jpg"
             alt="книга Салман Хан Весь мир — школа преобразованное образование">
           <!--Блок khan, элемент buy-link ссылка-->
           <a class="khan__buy-link" href="#">Купить книгу →</a>
@@ -270,7 +268,7 @@
         </li>
       </ul>
       <!--Блок kaufman, элемент triangle картинка (треугольник)-->
-      <div class="kaufman__triangle">
+      <div class="kaufman__triangle rotation">
       </div>
     </section>
     <!--Секция, блок resources-->
@@ -280,17 +278,17 @@
       <!-- Секция, блок section-subtitle подзаголовок -->
       <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
       <!--Блок resources, элемент logo-zone тут же логотипы и ссылки-->
-      <nav class="resources__logo-zone">
+      <div class="resources__logo-zone">
         <a class="resources__link" href="https://arzamas.academy/"><img class="resources__logo"
-            src="./images/logo/resources-arzamas.svg" alt="арзамас история культуры в видео, текстах и фотографиях"></a>
+            src="./images/resources/resources-arzamas.svg" alt="арзамас история культуры в видео, текстах и фотографиях"></a>
         <a class="resources__link" href="https://nplus1.ru/"><img class="resources__logo"
-            src="./images/logo/resources-n1.svg" alt="главное издание о науке, техники и технологиях"></a>
+            src="./images/resources/resources-n1.svg" alt="главное издание о науке, техники и технологиях"></a>
         <a class="resources__link" href="http://www.strelka.com/"><img class="resources__logo"
-            src="./images/logo/resources-strelka.svg" alt="Институт медиа, архитектуры и дизайна Стрелка"></a>
+            src="./images/resources/resources-strelka.svg" alt="Институт медиа, архитектуры и дизайна Стрелка"></a>
         <a class="resources__link" href="https://polka.academy/"><img class="resources__logo"
-            src="./images/logo/resources-polka.svg"
+            src="./images/resources/resources-polka.svg"
             alt="полка образовательный проект о самых важных произведениях русской литературы"></a>
-      </nav>
+      </div>
     </section>
   </main>
   <!-- Подвал страницы, блок footer -->
@@ -301,34 +299,36 @@
 copyright логотип + текс -->
       <div class="footer__column footer__column_content_copyright">
         <!-- логотип -->
-        <div class="logo logo_place_footer"><img src="./images/logo_place_header.svg" alt="логотип Яндекс практикум">
+        <div class="logo logo_place_footer"><img src="./images/logo/logo_place_header.svg" alt="логотип Яндекс практикум">
         </div>
         <!-- текс. символ (с) взял из википедии -->
         <p class="footer__author">&#169; Артём Попов</p>
       </div>
       <!-- Блок footer, элемент column, модификатор content со значением info с заголовком и текстовыми ссылками -->
-      <nav class="footer__column footer__column_content_info">
+      <div class="footer__column footer__column_content_info">
         <!-- заголовок -->
         <h2 class="footer__column-heading">О Практикуме</h2>
         <!-- текстовые ссылки -->
-        <div class="footer__column-links">
+        <nav class="footer__column-links">
           <a href="#" class="footer__column-link">Главная</a>
           <a href="#" class="footer__column-link">Концепция</a>
           <a href="#" class="footer__column-link">Наставники</a>
-        </div>
-      </nav>
+        </nav>
+      </div>
       <!-- Блок footer, элемент column, модификатор content со значением social с заголовком, текстовыми ссылками и логотипами-->
-      <nav class="footer__column footer__column_content_social">
+      <div class="footer__column footer__column_content_social">
         <!-- заголовок -->
         <h2 class="footer__column-heading">Соцсети</h2>
         <!-- текстовые ссылки + логотипы -->
+        <nav class="footer__column-links">
         <a class="footer__column-link" href="https://www.youtube.com/"><img class="footer__social-icon"
-            src="./images/youtube-icon.svg" alt="ютуб">YouTube</a>
+            src="./images/footer/youtube-icon.svg" alt="ютуб">YouTube</a>
         <a class="footer__column-link" href="https://vk.com/"><img class="footer__social-icon"
-            src="./images/vk_color_white.svg" alt="Вконтакте">Вконтакте</a>
+            src="./images/footer/vk_color_white.svg" alt="Вконтакте">Вконтакте</a>
         <a class="footer__column-link" href="https://www.tiktok.com/"><img class="footer__social-icon"
-            src="./images/tiktok-icon.svg" alt="ТикТок">TikTok</a>
-      </nav>
+            src="./images/footer/tiktok-icon.svg" alt="ТикТок">TikTok</a>
+        </nav>
+      </div>
     </div>
   </footer>
 </body>
