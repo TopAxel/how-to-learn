@@ -1,7 +1,7 @@
 /*normalize.css*/
 @import url(../vendor/normalize.css);
 /* страница сайта */
-@import url(../pages/page/page.css);
+@import url(../blocks/page/page.css);
 /* cards */
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__description/cards__description.css);
@@ -15,8 +15,8 @@
 /* feynman */
 @import url(../blocks/feynman/feynman.css);
 @import url(../blocks/feynman/__link/feynman__link.css);
-@import url(../blocks/feynman/feynman-subtitle/feynman-subtitle.css);
-@import url(../blocks/feynman/feynman-title/feynman-title.css);
+@import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
+@import url(../blocks/feynman/__title/feynman__title.css);
 /* footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
